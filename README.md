@@ -71,7 +71,7 @@ namespace WebForm_DependencyInjection.Services
 }
 ```
 
-Last, We just inject in your code. `[DependencyInjection]` attribute is the property get, set.
+Last, We just inject in your code. `[DependencyInjection]` attribute is the property get, set. If we don't use, `EmailService` property has null value, throw `NullReferenceException`
 
 It is all.!!
 
